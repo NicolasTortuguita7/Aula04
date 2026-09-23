@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Exercicio 1 - Formulário Registro de Usuário</title>
+</head>
+<body style="background-color:white;">
+    <header style="background-color: #7a36a8; color: aliceblue;">  
+        <br>
+        <h1 style="text-align: center;">Formulário de Registro de Usuário</h1>
+        <br>
+        <hr>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <label for="nome">Nome do Usuário</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            <br>
+            <hr>
+            <label for="sobrenome">Sobrenome...</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+            <br>
+            <hr>
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" name="dataNascimento" id="dataNascimento" required>
+            <br>
+            <hr>
+            <label for="genero">Gênero</label>
+            <input type="radio" name="genero" id="masculino" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="outro" value="outro" required>
+            <label for="outro">Outro</label>
+            <br>
+            <hr>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            <br>
+            <hr>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+            <br>
+            <hr>
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+            <br>
+            <hr>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade" required>
+            <br>
+            <hr>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado" required>
+                <option value="" selected disabled>Selecione seu estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option> 
+            </select>
+            <br>
+            <hr>
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cep" placeholder="Digite seu CEP" required>
+            <br>
+            <hr>
+            <label for="nomeUsuario">Nome de Usuário</label>
+            <input type="text" name="nomeUsuario" id="nomeUsuario" placeholder="Digite seu nome de usuário" required>
+            <br>
+            <hr>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+            <br>
+            <hr>
+            <label for="confirmarSenha">Confirmar Senha</label>
+            <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua senha" required>
+            <br>
+            <hr>
+            <label for="fotoPerfil">Foto de Perfil</label>
+            <input type="file" name="fotoPerfil" id="fotoPerfil" accept="image/*">
+            <br>
+            <hr>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" name="hobbies" id="hobbies" value="leitura" required>
+            <label for="hobbies">Leitura</label>
+            <input type="checkbox" name="hobbies" id="hobbies" value="musica" required>
+            <label for="hobbies">Música</label>
+            <input type="checkbox" name="hobbies" id="hobbies" value="esportes" required>
+            <label for="hobbies">Esportes</label>
+            <br>
+            <hr>
+            <label for="nivelEducacao">Nível de Educação</label>
+            <select name="nivelEducacao" id="nivelEducacao" required>
+                <option value="" selected disabled>Selecione seu nível de educação</option>
+                <option value="ensino-medio">Ensino Médio</option>
+                <option value="graduacao">Graduação</option>
+                <option value="pos-graduacao">Pós-Graduação</option>
+                <option value="doutorado">Doutorado</option>
+            </select>
+            <br>
+            <hr>
+            <label for="profissao">Profissão</label>
+            <input type="text" name="profissao" id="profissao" placeholder="Digite sua profissão">
+            <br>
+            <hr>
+            <label for="biografia">Biografia</label>
+            <textarea name="biografia" id="biografia" placeholder="Digite sua biografia"></textarea>
+            <br>
+            <hr>
+            <label for="termos">Termos e Condições</label>
+            <input type="checkbox" name="termos" id="termos" required>
+            <label for="termos">Li e concordo com os termos e condições</label>
+            <br>
+            <hr>
+            <label for="receberNotificacoes">Receber Notificações</label>
+            <input type="checkbox" name="receberNotificacoes" id="receberNotificacoes">
+            <br>
+            <hr>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </main>
+</body>
+</html>
